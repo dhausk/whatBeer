@@ -1,0 +1,114 @@
+.App{
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.center-div{
+  margin: 5%;
+}
+/* header */
+.app-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 25vh;
+  background-image: url("./assets/taps.jpg");
+  box-shadow: 10px 10px 5px grey ;
+}
+.logo-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo-title img{
+  height: 20vh;
+  width: auto;
+  margin-right: 2%; 
+}
+.logo-title h1{
+  font-size: 3em;
+  color: whitesmoke;
+}
+.nav-bar-header{
+  height: 3.2 em;
+  color: whitesmoke;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar-header button{
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  margin: 0.5em;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* Home */
+.home{
+  margin: 1.5em;
+  flex: 1 0 auto;
+}
+.beer-button{
+   background-color: black;
+  border: none;
+  color: whitesmoke;
+  margin: 0.5em;
+  font-size: 1.5em; 
+}
+/* Beer */
+form{
+  display: flex;
+  flex-direction: column;
+}
+.beer-form button{
+ background-color: black;
+  border: none;
+  color: whitesmoke;
+  margin: 0.5em;
+  font-size: 1.5em; 
+}
+/* Contact */
+/* result list */
+ul{
+  margin: 0.15%;
+}
+.brew{
+  display: flex;
+}
+.brew img{
+  height: 20vh;
+  margin: 1em;
+}
+/* Footer */
+footer{
+  display: flex;
+  flex-shrink: 0;
+  margin-top: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  color: whitesmoke;
+  background-color: black;
+  box-shadow: 10px 10px 5px grey ;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%; 
+}
+.footer-nav{
+  display: flex;
+  flex-direction: row;
+}
+.nav-footer button{
+  background-color: black;
+  border: none;
+  color: whitesmoke;
+  margin: 0.5em;
+  font-size: 1.5em;
+}
